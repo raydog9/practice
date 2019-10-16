@@ -2,7 +2,7 @@ var a;var b;var c;var d;var i;var r;var t;var rr;var may=[0];
 console.log("ray was here for the moment");
 function funk() {
     for(i=0;i<13;i++) {
-    var rand=Math.floor(Math.random()*100);
+    var rand=Math.floor(Math.random()*1000);
     r=rand;
     may[i]=r;
     document.getElementById("bo1").innerHTML=may[0];
