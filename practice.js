@@ -9,22 +9,20 @@ function funk() {
     ray[i]=rand;
     if (rand%2==1) {
       rr=rand;may[i]=rr;
-      console.log(rr + (" this a odd number" + (i)))  ;
+      console.log(rr + (" this is a odd number   " + (i)));
+      }
+      else {
+      c=rand;ray[i]=c;
+      console.log(c + (" this is an even number" + (i)));
     }
-    
-   }
-  console.log("\n");
+       
+     
+      }
+      } 
+function fun1() {
+  var b=0;;
+  for (b=0;b<10;b++) {
+    console.log(ray[b]);
 }
-function fun1 () {
-  for (d=0;d<10;d++) {
-     console.log(ray[d]); 
-  }
-  console.log("\n");
 }
-function fun2 () {
-  for (c=0;c<10;c++) {
-    if (ray[c]%2==0) {
-      console.log(ray[c] + ("this is an even number"));
-    }
-  }
-}
+ 
