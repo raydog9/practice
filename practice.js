@@ -9,16 +9,17 @@ function funk() {
     ray[i]=rand;
     if (rand%2==1) {
       rr=rand;may[i]=rr;
-      console.log(rr + (" this is a odd number   " + (i)));
+      console.log(rr + (" this is a odd number   " + ("\t") + (i)));
       }
       else {
       c=rand;ray[i]=c;
-      console.log(c + (" this is an even number" + (i)));
+      console.log(c + (" this is an even number" + ("\t") + (i)));
     }
        
      
       }
-      } 
+      console.log("\n");
+    } 
 function fun1() {
   var b=0;;
   for (b=0;b<10;b++) {
