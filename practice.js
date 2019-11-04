@@ -1,24 +1,18 @@
-var a,b,c,d,e,f,i,n,o,r,s,t,aray=[],may=[],ray=[],say=[];
+var a,b,c,d,e,i,n,o,r,s,t,aray=[],may=[],ray=[],say=[];
+ 
+var in1=document.getElementById("in1");
+var in2=document.getElementById("in2");
+var he1=document.getElementById("he1");
+var bo1=document.getElementById("bo1");
+var bo2=document.getElementById("bo2");
 
 
-bu1.addEventListener("click",fun1);
-bu2.addEventListener("click",fun2);
-bu3.addEventListener("click",fun3);
+in1.addEventListener("input",fun1);
+in2.addEventListener("input",fun1);
 function fun1() {
-  for (i=0;i<10;i++) {
-      var rand=Math.floor(Math.random() *100);
-        aray.push(rand);
-      if(rand%2==0) {
-      may.push(rand);
-  }
-  else {
-    ray.push(rand);
-       }
-  }
-  document.getElementById("bo1").innerHTML=aray;
-}function fun2() {
-  document.getElementById("bo2").innerHTML=may;
-}
-  function fun3() {
-    document.getElementById("bo3").innerHTML=ray;
-  }
+    var one=parseFloat(in1.value) || 0;
+    var two=parseFloat(in2.value) || 0;
+     he1.innerHTML = one + two;
+     bo1.innerHTML=one;
+     bo2.innerHTML=two;
+} 
