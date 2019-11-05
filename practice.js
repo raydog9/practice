@@ -12,11 +12,11 @@ in2.addEventListener("input",fun1);
 bu1.addEventListener("click",fun2);
 
 function fun1() {
-    var one=parseFloat(in1.value) || 0;
-    var two=parseFloat(in2.value) || 0;
-     he1.innerHTML = one + two;
-     bo1.innerHTML=one;
-     bo2.innerHTML=two;
+    var ione=parseFloat(in1.value) || 0;
+    var itwo=parseFloat(in2.value) || 0;
+     he1.innerHTML = ione + itwo;
+     bo1.innerHTML=ione;
+     bo2.innerHTML=itwo;
 } 
 
 function fun2() {
