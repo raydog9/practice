@@ -27,8 +27,10 @@ function fun1() {
     else {
         bo3.innerHTML="YOU ARE WRONG";
         }
-         po1.innerHTML=may;
-        he1.innerHTML=aray;
-    console.log(aray);
+         po1.innerHTML=may + " this is your guess";
+        he1.innerHTML=aray + " this is the computers guess"
+    console.log(aray  );
+    console.log(may );
+
     }
     
