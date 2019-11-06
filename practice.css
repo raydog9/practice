@@ -16,7 +16,10 @@ body {
   text-align:center;
 }
 #bo1{
-  font-size: 20px;
+  font-size:30px;
+  }
+  #bo2 {
+    font-size:30px;
   }
   #inp1 {
     background-color:lightblue;
