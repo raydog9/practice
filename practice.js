@@ -4,15 +4,18 @@ var in1=document.getElementById("in1");
 var bo1=document.getElementById("bo1");
 var bo2=document.getElementById("bo2");
 var bo3=document.getElementById("bo3");
-var po1=document.getElementById("po1")
+var po1=document.getElementById("po1");
+var he1=document.getElementById("he1");
 
 
 in1.addEventListener("input",fun1);
-a++; 
+ 
 function fun1() {
+    a++;
     var one=parseFloat(in1.value) || 0;
-    var rand=Math.floor(Math.random() * 5);
-      
+    var rand=Math.floor(Math.random() * 5 +1);
+      aray[a]=rand;
+      may[a]=one;
         bo1.innerHTML=one;
         bo2.innerHTML=rand;
 
@@ -24,9 +27,8 @@ function fun1() {
     else {
         bo3.innerHTML="YOU ARE WRONG";
         }
-        a++;
-        b=parseInt(a||0);
-        po1.innerHTML=b;
-    console.log(b);
+         po1.innerHTML=may;
+        he1.innerHTML=aray;
+    console.log(aray);
     }
     
