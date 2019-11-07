@@ -29,8 +29,8 @@ function fun1() {
         }
          po1.innerHTML=may + " this is your guess";
         he1.innerHTML=aray + " this is the computers guess"
-    console.log(aray  );
-    console.log(may );
+    console.log(aray);
+    console.log(may);
 
     }
     
